@@ -2,20 +2,23 @@
   "name": "shrewd",
   "version": "0.1.0",
   "description": "Browser Tailored for non-HTTP Access",
-  "main": "index.js",
+  "main": "backend/backend.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/typings install"
+    "postinstall": "./node_modules/.bin/typings install",
+    "start": "./node_modules/.bin/ts-node ./tasks/start.ts"
   },
   "author": "Chad Retz <chad.retz@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "electron-prebuilt": "^0.37.0",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^2.12.1",
+    "fs-extra": "^0.26.5",
+    "rollup": "^0.25.4",
+    "ts-node": "^0.5.5",
     "typescript": "^1.8.7",
     "typings": "^0.7.8"
   },
   "dependencies": {
+    "jquery": "^2.2.1",
     "semantic-ui-css": "^2.1.8",
     "vue": "^1.0.17"
   }

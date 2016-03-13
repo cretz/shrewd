@@ -1,8 +1,8 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
-    "module": "system",
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
@@ -10,6 +10,8 @@
     "noImplicitAny": false
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/browser.d.ts",
+    "typings/browser"
   ]
 }
