@@ -1,0 +1,6 @@
+{
+  "ambientDependencies": {
+    "github-electron": "registry:dt/github-electron#0.36.3+20160311011419",
+    "node": "registry:dt/node#4.0.0+20160311162451"
+  }
+}
