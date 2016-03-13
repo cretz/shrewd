@@ -1,2 +1,3 @@
+import App from './browser/App'
 
-console.log('Yup!')
+$(_ => new App($(document.body)))

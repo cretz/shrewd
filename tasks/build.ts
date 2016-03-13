@@ -40,11 +40,15 @@ export function copyOther() {
       fs.copySync('./frontend', './build/app/frontend', noTypeScriptFiles)
       fs.copySync('./node_modules/jquery/dist', './build/app/node_modules/jquery/dist')
       fs.copySync('./node_modules/semantic-ui-css', './build/app/node_modules/semantic-ui-css')
-      fs.copySync('./node_modules/vue/dist', './build/app/node_modules/vue/dist')
+      fs.copySync('./node_modules/split.js', './build/app/node_modules/split.js')
       fs.copySync('./package.json', './build/app/package.json')
       resolve()
     } catch (e) {
       reject(e)
     }
   })
+}
+
+export function cleanAndBuildAll() {
+  return clean().then(_ => compileJs()).then(_ => copyOther())
 }

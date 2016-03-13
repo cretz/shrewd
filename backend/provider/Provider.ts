@@ -1,0 +1,4 @@
+
+interface Provider {
+  schemeName: string
+}
