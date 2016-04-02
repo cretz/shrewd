@@ -1,4 +1,4 @@
-const Split = require('./../split')
+const Split = require('./split')
 import BrowserTab from './BrowserTab'
 
 export default class BrowserView {

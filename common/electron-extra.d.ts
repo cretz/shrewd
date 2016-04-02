@@ -26,5 +26,13 @@ declare module Electron {
     goForward(): void
     clearHistory(): void
   }
+  
+  interface WebViewEventable {
+    addEventListener(type: 'page-title-updated', f: (e: Electron.TitleEvent) => any): any
+    addEventListener(type: 'load-commit', f: (e: Electron.LoadCommitEvent) => any): any
+    addEventListener(type: 'did-fail-load', f: (e: Electron.DidFailLoadEvent) => any): any
+    addEventListener(type: 'dom-ready', f: (e: Electron.Event) => any): any
+    addEventListener(type: string, f: (e: Electron.Event) => any): any
+  }
 
 }

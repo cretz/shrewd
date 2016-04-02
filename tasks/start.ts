@@ -4,7 +4,12 @@ import childProcess = require('child_process')
 import fs = require('fs-extra')
 
 function run() {
-  childProcess.spawn(electron, ['./build/app'], { stdio: 'inherit' })
+  childProcess.spawn(
+    electron,
+    ['./build/app'],
+    { stdio: 'inherit' }
+    // { stdio: 'inherit', env: { ELECTRON_ENABLE_LOGGING: 'true', ELECTRON_ENABLE_STACK_DUMPING: 'true' } }
+  )
 }
 
 function rebuild() {

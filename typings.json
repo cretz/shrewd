@@ -1,8 +1,7 @@
 {
   "ambientDependencies": {
     "fs-extra": "registry:dt/fs-extra#0.0.0+20160203134724",
-    "github-electron": "registry:dt/github-electron#0.36.3+20160311011419",
-    "github-electron/electron-prebuilt": "registry:dt/github-electron/electron-prebuilt#0.30.1+20150729070018",
+    "github-electron": "registry:dt/github-electron#0.37.2+20160326005648",
     "glob": "registry:dt/glob#5.0.10+20150624063249",
     "gulp": "registry:dt/gulp#3.8.0+20150825164847",
     "jquery": "registry:dt/jquery#1.10.0+20160303223636",
@@ -10,5 +9,34 @@
     "node": "registry:dt/node#4.0.0+20160311162451",
     "orchestrator": "registry:dt/orchestrator#0.0.0+20150821143159",
     "q": "registry:dt/q#0.0.0+20160215162030"
+  },
+  "ambientDevDependencies": {
+    "github-electron/electron-prebuilt": "registry:dt/github-electron/electron-prebuilt#0.30.1+20160316155526",
+    "github-electron/github-electron.app": "registry:dt/github-electron/github-electron.app#0.37.2+20160326011120",
+    "github-electron/github-electron.auto-updater": "registry:dt/github-electron/github-electron.auto-updater#0.37.2+20160326011116",
+    "github-electron/github-electron.browser-window": "registry:dt/github-electron/github-electron.browser-window#0.37.2+20160326011120",
+    "github-electron/github-electron.clipboard": "registry:dt/github-electron/github-electron.clipboard#0.37.2+20160326005655",
+    "github-electron/github-electron.content-tracing": "registry:dt/github-electron/github-electron.content-tracing#0.37.2+20160326011124",
+    "github-electron/github-electron.crash-reporter": "registry:dt/github-electron/github-electron.crash-reporter#0.37.2+20160326005652",
+    "github-electron/github-electron.desktop-capturer": "registry:dt/github-electron/github-electron.desktop-capturer#0.37.2+20160326011124",
+    "github-electron/github-electron.dialog": "registry:dt/github-electron/github-electron.dialog#0.37.2+20160326011124",
+    "github-electron/github-electron.dom": "registry:dt/github-electron/github-electron.dom#0.37.2+20160326005648",
+    "github-electron/github-electron.event-emitter": "registry:dt/github-electron/github-electron.event-emitter#0.37.2+20160326005648",
+    "github-electron/github-electron.global-shortcut": "registry:dt/github-electron/github-electron.global-shortcut#0.37.2+20160326011119",
+    "github-electron/github-electron.ipc-main": "registry:dt/github-electron/github-electron.ipc-main#0.37.2+20160326011120",
+    "github-electron/github-electron.ipc-renderer": "registry:dt/github-electron/github-electron.ipc-renderer#0.37.2+20160326011120",
+    "github-electron/github-electron.menu": "registry:dt/github-electron/github-electron.menu#0.37.2+20160326011119",
+    "github-electron/github-electron.menu-item": "registry:dt/github-electron/github-electron.menu-item#0.37.2+20160326011119",
+    "github-electron/github-electron.native-image": "registry:dt/github-electron/github-electron.native-image#0.37.2+20160326005648",
+    "github-electron/github-electron.power-monitor": "registry:dt/github-electron/github-electron.power-monitor#0.37.2+20160326005655",
+    "github-electron/github-electron.power-save-blocker": "registry:dt/github-electron/github-electron.power-save-blocker#0.37.2+20160326005655",
+    "github-electron/github-electron.protocol": "registry:dt/github-electron/github-electron.protocol#0.37.2+20160326011120",
+    "github-electron/github-electron.remote": "registry:dt/github-electron/github-electron.remote#0.37.2+20160326011124",
+    "github-electron/github-electron.screen": "registry:dt/github-electron/github-electron.screen#0.37.2+20160326011119",
+    "github-electron/github-electron.session": "registry:dt/github-electron/github-electron.session#0.37.2+20160326011120",
+    "github-electron/github-electron.shell": "registry:dt/github-electron/github-electron.shell#0.37.2+20160326005651",
+    "github-electron/github-electron.tray": "registry:dt/github-electron/github-electron.tray#0.37.2+20160326005652",
+    "github-electron/github-electron.web-contents": "registry:dt/github-electron/github-electron.web-contents#0.37.2+20160326011119",
+    "github-electron/github-electron.web-frame": "registry:dt/github-electron/github-electron.web-frame#0.37.2+20160326005655"
   }
 }
