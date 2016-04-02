@@ -44,8 +44,8 @@ export default class SafeProvider implements Provider {
       // Intercept all web requests for our partition
       // TODO: fix this to use a partition once https://github.com/atom/electron/issues/4991 is solved
       // const webRequest: Electron.SessionWebRequest = electron.session.fromPartition('safe').webRequest
-      // const webRequest: Electron.SessionWebRequest = electron.session.defaultSession.webRequest
-      // webRequest.onBeforeRequest({ urls: ['*://*'] }, (det, cb) => this._beforeRequestHandler(det, cb))
+      const webRequest: Electron.SessionWebRequest = electron.session.defaultSession.webRequest
+      webRequest.onBeforeRequest({ urls: ['*://*'] }, (det, cb) => this._beforeRequestHandler(det, cb))
     })
   }
   
